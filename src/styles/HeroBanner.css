@@ -1,0 +1,97 @@
+.hero-wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 37px;
+	flex-direction: column;
+	text-align: center;
+}
+
+h1 {
+	color: #ff2625;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+h1 span {
+	display: block;
+	font-weight: 400;
+	color: rgb(0, 0, 0);
+}
+p span {
+	display: block;
+}
+.sentence {
+	font-weight: 700;
+	font-size: 25px;
+	margin-bottom: 30px;
+}
+.checkOut {
+	font-size: 22px;
+	line-height: 35px;
+	margin-bottom: 30px;
+}
+.exercises-btn {
+	padding: 20px;
+	background-color: #ff2625;
+	color: white;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	font-size:18px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.heroBannerImg {
+	display: none;
+	position: absolute;
+	right: 100px;
+	top: 95px;
+	width: 700px;
+	height: 900px;
+	margin-top: -330px;
+}
+.backgroundText {
+	margin-top: 100px;
+	font-weight: 700;
+	margin-left: 50px;
+	color: #ff2625;
+	display: none;
+	opacity: 0.1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.hero-wrapper {
+		margin-top: 152px;
+	}
+	.sentence {
+		font-size: 44px;
+	}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.heroBannerImg {
+		display: block;
+	}
+	.backgroundText {
+		display: block;
+		font-size: 200px;
+	}
+	.hero-wrapper {
+		text-align: left;
+		display: block;
+	}
+	.text-wrapper {
+		margin-left: 40px;
+	}
+}

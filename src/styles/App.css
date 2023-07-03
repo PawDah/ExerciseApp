@@ -1,0 +1,50 @@
+@import url(Navbar.css);
+@import url(HeroBanner.css);
+@import url(SearchExercises.css);
+@import url(HorizontalScrollbar.css);
+@import url(BodyPart.css);
+@import url(Exercises.css);
+@import url(ExerciseCard.css);
+@import url(Detail.css);
+@import url(SimilarExercises.css);
+@import url(Footer.css);
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.spin {
+	color: grey;
+}
+body {
+	background-color: #fffafb;
+}
+
+.App {
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.navigation {
+		gap: 122px;
+	}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

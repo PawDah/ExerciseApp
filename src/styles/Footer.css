@@ -1,0 +1,21 @@
+.footer-wrapper {
+	margin-top: 100px;
+	background-color: #fff3f4;
+}
+.footer-details {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	gap: 40px;
+	padding: 40px;
+}
+.footer-details img {
+	width: 200px;
+	height: 40px;
+}
+h5 {
+    font-size: 15px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}

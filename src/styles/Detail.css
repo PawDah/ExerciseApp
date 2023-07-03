@@ -1,0 +1,76 @@
+.detail-wrapper {
+	margin-top: 40px;
+	gap: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.description p {
+	font-size: 25px;
+	line-height: 40px;
+}
+.icons {
+	display: flex;
+	padding: 20px;
+	align-items: center;
+	gap: 24px;
+}
+.icons img {
+	width: 50px;
+	height: 50px;
+}
+.icons-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 100px;
+	background-color: #fff2db;
+	border-radius: 50%;
+}
+.description p span {
+	display: inline;
+	font-weight: bold;
+}
+.detail-image {
+	width: 350px;
+	height: 350px;
+	padding: 20px;
+}
+
+.description {
+	gap: 20px;
+	text-align: center;
+	margin-top: 40px;
+	padding: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.detail-wrapper {
+		gap: 60px;
+		flex-direction: row;
+	}
+	.detail-image {
+		width: 729px;
+		height: 742px;
+	}
+	.description {
+		gap: 35px;
+	}
+}

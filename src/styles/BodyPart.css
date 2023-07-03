@@ -1,0 +1,54 @@
+.body-part {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 20px;
+	margin: 0 10px;
+	transition: 0.3s all ease-in-out;
+	background-color: #ffffff;
+	align-items: center;
+}
+.single-item {
+	display: inline-block;
+}
+
+.body-part button {
+	border: none;
+	cursor: pointer;
+	background-color: #fff;
+}
+.item-name {
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #3a1212;
+	text-transform: uppercase;
+}
+
+.body-part-icon {
+	width: 45px;
+	height: 45px;
+	transform: scale(1, 1);
+}
+
+.body-part:hover {
+	transform: scale(1.1, 1.1);
+}
+
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.body-part {
+		width: 200px;
+		height: 170px;
+		margin: 0 50px;
+	}
+}

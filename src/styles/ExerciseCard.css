@@ -1,0 +1,68 @@
+.exercise-card {
+	width: 200px;
+	background: #fff;
+	border-top: 4px solid #ff2625;
+	border-bottom-left-radius: 20px;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin: 15px;
+	transform: scale(1, 1);
+	transition: 0.3s all ease-in-out;
+	
+}
+.single-item{
+	white-space:normal;
+}
+
+.exercise-detail {
+	display: flex;
+	flex-direction: column;
+
+}
+.targets {
+	display: flex;
+	text-transform: uppercase;
+	color: #fff;
+}
+.targets p {
+	margin-left: 21px;
+	border-radius: 20px;
+	background: #ffa9a9;
+	font-size: 14px;
+	padding: 8px;
+}
+
+.targets p:last-child {
+	background: #ffd30f;
+}
+.exercise-name {
+	color: #000;
+	font-weight: bold;
+	margin-top: 11px;
+	padding: 20px;
+	text-transform: uppercase;
+	
+}
+
+.exercise-card:hover,
+.bodyPart-card:hover {
+	transform: scale(1.1, 1.1);
+}
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.exercise-card{
+		margin: 30px;
+		width: 300px;
+	}
+}
